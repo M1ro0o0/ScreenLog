@@ -14,9 +14,9 @@ include 'nav.php';
     <h1 id="msgtext">Welcome, <?php echo $_SESSION['username']; ?>!</h1>
 
     <div class="select">
-        <a href="series.php">Series</a> 
+        <a href="list.php?type=series">Series</a> 
         <p>|</p>
-        <a href="films.php">Films</a>
+        <a href="list.php?type=films">Films</a>
     </div>
 
 </body>
